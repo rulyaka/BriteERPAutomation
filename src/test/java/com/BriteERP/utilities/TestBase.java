@@ -91,7 +91,7 @@ public class TestBase {
         } else if (result.getStatus() == ITestResult.SKIP) {
             extentLogger.skip("Test case skipper: " + result.getName());
         }
-
+// newewewae
         Thread.sleep(4000);
         Driver.closeDriver();
     }
