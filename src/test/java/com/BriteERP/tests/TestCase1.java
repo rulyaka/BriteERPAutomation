@@ -18,6 +18,7 @@ public class TestCase1 extends TestBase {
         loginPage.usernameConsole.sendKeys(ConfigurationReader.get("username"));
         loginPage.passwordConsole.sendKeys(ConfigurationReader.get("password"));
         loginPage.submitButton.click();
+        //tests
     }
 
     @Test
